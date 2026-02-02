@@ -2,8 +2,6 @@
 config.json
 
 # Environment
-.env
-.env.local
 .env.*.local
 
 # Claude Code local settings
@@ -16,7 +14,6 @@ config.json
 *.log
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -30,3 +27,5 @@ Thumbs.db
 *.tmp
 *.temp
 .cache/
+config.bat
+node_modules
